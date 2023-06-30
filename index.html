@@ -51,13 +51,30 @@
                     <div class="row">
                         <div class="col-sm-4 p-3 bg-primary text-white">
                             <div class="card">
-                                <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image"
+                                <img class="card-img-top" src="https://reqres.in/img/faces/7-image.jpg" alt="Card image"
                                     style="width:100%">
                                 <div class="card-body">
-                                    <h4 class="card-title">John Doe</h4>
-                                    <p class="card-text">Some example text some example text. John Doe is an architect
-                                        and engineer</p>
-                                    <a href="#" class="btn btn-primary">See Profile</a>
+                                    <ul class="nav nav-pills" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-bs-toggle="pill" href="#profile_info">Info</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="pill" href="#contacts">Contacts</a>
+                                        </li>
+                                    </ul>
+                                    
+                                    <div class="tab-content">
+                                        <div id="profile_info" class="container tab-pane active"><br>
+                                            <h4 class="card-title">
+                                                <span class="firstName">Michael</span> <span class="lastName">Lawson</span></h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                <a href="#" class="btn btn-primary">See Profile</a>
+                                        </div>
+                                        <div id="contacts" class="container tab-pane fade"><br>
+                                            <p>Email: <span>michael.lawson@reqres.in</span></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
