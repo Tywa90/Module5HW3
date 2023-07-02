@@ -46,28 +46,168 @@
 
         <!-- Tab panes -->
         <div class="tab-content">
+            <!-- Resources cards -->
             <div id="data" class="container tab-pane active"><br>
-                <h3>HOME</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
+                <div class="container-fluid mt-3">
+                    <div id="page_1" class="row">
+                        <div class="col-sm-4">
+                            <div class="card border-primary">
+                                <div class="card-body p-1">
+                                    <ul class="nav nav-tabs d-flex justify-content-between" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#res_name_1" href="res_name">Name</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#res_year_1" href="res_year">Year</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#res_color_1" href="res_color">Color</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#res_pantone_1" href="res_pantone">Pantone value</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="res_name_1" class="container tab-pane active"><br>
+                                            <h3>cerulean</h3>
+                                        </div>
+                                        <div id="res_year_1" class="container tab-pane fade"><br>
+                                            <h3>2000</h3>
+                                        </div>
+                                        <div id="res_color_1" class="container tab-pane fade"><br>
+                                            <h3 class="text-white" style="background:#98B2D1">#98B2D1</h3>
+                                        </div>
+                                        <div id="res_pantone_1" class="container tab-pane fade"><br>
+                                            <h3>15-4020</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card border-primary">
+                                <div class="card-body p-1">
+                                    <ul class="nav nav-tabs d-flex justify-content-between" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#res_name_2" href="res_name">Name</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#res_year_2" href="res_year">Year</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#res_color_2" href="res_color">Color</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#res_pantone_2" href="res_pantone">Pantone value</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="res_name_2" class="container tab-pane active"><br>
+                                            <h3>fuchsia rose</h3>
+                                        </div>
+                                        <div id="res_year_2" class="container tab-pane fade"><br>
+                                            <h3>2001</h3>
+                                        </div>
+                                        <div id="res_color_2" class="container tab-pane fade"><br>
+                                            <h3 class="text-white" style="background:#C74375">#C74375</h3>
+                                        </div>
+                                        <div id="res_pantone_2" class="container tab-pane fade"><br>
+                                            <h3>17-2031</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card border-primary">
+                                <div class="card-body p-1">
+                                    <ul class="nav nav-tabs d-flex justify-content-between" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#res_name_3" href="res_name">Name</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#res_year_3" href="res_year">Year</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#res_color_3" href="res_color">Color</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#res_pantone_3" href="res_pantone">Pantone value</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="res_name_3" class="container tab-pane active"><br>
+                                            <h3>true red</h3>
+                                        </div>
+                                        <div id="res_year_3" class="container tab-pane fade"><br>
+                                            <h3>2002</h3>
+                                        </div>
+                                        <div id="res_color_3" class="container tab-pane fade"><br>
+                                            <h3 class="text-white" style="background:#BF1932">#BF1932</h3>
+                                        </div>
+                                        <div id="res_pantone_3" class="container tab-pane fade"><br>
+                                            <h3>14-4811</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <div class="container mt-3">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item active"><a class="page-link" data-bs-target="#page_1" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" data-bs-target="#page_2" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </div>
             </div>
+
+            <!-- Input data -->
             <div id="inputdata" class="container tab-pane fade"><br>
-                <h3>Menu 1</h3>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
+                <h3>Add new resource</h3>
+                <p>Input all required fields</p>
+                <form action="/action_page.php" class="was-validated">
+                    <div class="row mb-4">
+                        <div class="col">
+                            <div class="form-outline">
+                                <input type="text" id="resName" class="form-control" required />
+                                <label class="form-label" for="resName">Name</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-outline">
+                                <input type="text" id="resYear" class="form-control" required />
+                                <label class="form-label" for="resYear">Year</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col">
+                            <div class="form-outline">
+                                <input type="text" id="resColor" class="form-control" required />
+                                <label class="form-label" for="resColor">Color</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-outline">
+                                <input type="text" id="resPantone" class="form-control" required />
+                                <label class="form-label" for="resPantone">Pantone value</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Register</button>
+                </form>
             </div>
+
         </div>
-    </div>
-
-
-    <div class="container-fluid mt-3">
-        <h3>Collapsible Navbar</h3>
-        <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right
-            corner (try to re-size this window).</p>
-        <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-        <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler
-            button.</p>
-    </div>
 
 </body>
 
